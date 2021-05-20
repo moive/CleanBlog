@@ -6,4 +6,10 @@
 
 @* the fun starts here *@
 
-@Model.Value("title")
+<div style="color:@Model.ColourName">
+	@Model.Title
+	<div>
+		@Model.MainContent
+	</div>
+	<p>Your favourite colour name is @Model.ColourName</p>
+</div>
