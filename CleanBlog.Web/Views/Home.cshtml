@@ -12,4 +12,12 @@
 		@Model.MainContent
 	</div>
 	<p>Your favourite colour name is @Model.ColourName</p>
+	@if (Model.ShowImage)
+    {
+    <div class="row">
+		<figure class="col-sm-6">
+			<img src="/media/czinocod/eric-han-hd7vwfzzph0-unsplash.jpg" alt="cat picture" class="img-fluid" />
+		</figure>
+	</div>
+    }
 </div>

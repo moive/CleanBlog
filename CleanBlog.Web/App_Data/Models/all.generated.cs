@@ -6,8 +6,8 @@ using  Umbraco.Core.Models;
 using  Umbraco.Core.Models.PublishedContent;
 using  Umbraco.Web;
 using  Umbraco.ModelsBuilder.Embedded;
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "fc7248beb2493cae")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "53f4cc2c57b5424c")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
 
 
 // FILE: models.generated.cs
@@ -76,6 +76,13 @@ namespace Umbraco.Web.PublishedModels
 		public virtual global::System.Web.IHtmlString MainContent => global::Umbraco.Web.PublishedModels.BasicContentControls.GetMainContent(this);
 
 		///<summary>
+		/// Show Image
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.13.0")]
+		[ImplementPropertyType("showImage")]
+		public virtual bool ShowImage => global::Umbraco.Web.PublishedModels.BasicContentControls.GetShowImage(this);
+
+		///<summary>
 		/// Title: Enter a title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.13.0")]
@@ -94,6 +101,10 @@ namespace Umbraco.Web.PublishedModels
 		/// <summary>Main Content</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.13.0")]
 		global::System.Web.IHtmlString MainContent { get; }
+
+		/// <summary>Show Image</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.13.0")]
+		bool ShowImage { get; }
 
 		/// <summary>Title</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.13.0")]
@@ -146,6 +157,17 @@ namespace Umbraco.Web.PublishedModels
 		/// <summary>Static getter for Main Content</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.13.0")]
 		public static global::System.Web.IHtmlString GetMainContent(IBasicContentControls that) => that.Value<global::System.Web.IHtmlString>("mainContent");
+
+		///<summary>
+		/// Show Image
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.13.0")]
+		[ImplementPropertyType("showImage")]
+		public virtual bool ShowImage => GetShowImage(this);
+
+		/// <summary>Static getter for Show Image</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.13.0")]
+		public static bool GetShowImage(IBasicContentControls that) => that.Value<bool>("showImage");
 
 		///<summary>
 		/// Title: Enter a title
