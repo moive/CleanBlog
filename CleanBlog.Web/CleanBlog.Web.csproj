@@ -326,6 +326,9 @@
     <Content Include="Views\Partials\latestArticles.cshtml" />
     <Content Include="Views\Article.cshtml" />
     <Content Include="Views\ArticleLists.cshtml" />
+    <Content Include="Views\Content.cshtml" />
+    <Content Include="Views\Search.cshtml" />
+    <Content Include="Views\Contact.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
