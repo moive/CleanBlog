@@ -323,6 +323,9 @@
     <Content Include="Views\Partials\BlockList\Default.cshtml" />
     <Content Include="Views\Partials\navigation.cshtml" />
     <Content Include="Views\Partials\footer.cshtml" />
+    <Content Include="Views\Partials\latestArticles.cshtml" />
+    <Content Include="Views\Article.cshtml" />
+    <Content Include="Views\ArticleLists.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
